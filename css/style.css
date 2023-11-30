@@ -1,0 +1,24 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(3, 92, 62);
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container {
+    align-content: center;
+    justify-items: center;
+    border: 20px;
+    padding: 30px;
+    background-color: aqua;
+    position: relative;
+}
